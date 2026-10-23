@@ -1,4 +1,4 @@
-'''' weight=input("Weight in kg \n")
+weight=input("Weight in kg \n")
 height=input("Height in meter \n")
 w=float(weight)
 h=float(height)
@@ -11,8 +11,20 @@ elif bmi <25:
     print("Normal")
 else:
     print("Over")
-'''
-#py -m pip install pandas openpyxl
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''' #py -m pip install pandas openpyxl
 import pandas as pd
 from tkinter import Tk, filedialog
 
@@ -47,4 +59,6 @@ else:
     print("No file selected")
 
 print(df.duplicated('Code').sum())
+'''
+
 print(df.describe())
